@@ -1,0 +1,7 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+jwt.sign({id}, process.env.JWT_SECRET)
