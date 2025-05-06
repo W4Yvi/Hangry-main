@@ -9,7 +9,7 @@ const FoodDisplay = ({category}) => {
 
   return (
     <div className='food-display' id='food-display'>
-        <h2 className='h2we'>Таны ойролцоох шилдэг хоол</h2>
+        <h2 className='h2we'>Үнэлгээ сайн хоол</h2>
         <div className="food-display-list">
             {food_list.map((item,index)=>{
               if(category==="All" || category===item.category){
